@@ -3016,13 +3016,11 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-	
 		diddic1_12
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingEl-Regular"
+				"name"		"Code New Roman Bold"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -3031,7 +3029,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingEl-Regular"
+				"name"		"Code New Roman Bold"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -3040,7 +3038,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingEl-Regular"
+				"name"		"Code New Roman Bold"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3049,7 +3047,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingEl-Regular"
+				"name"		"Code New Roman Bold"
 				"tall"		"30"
 				"antialias" "1"
 			}
@@ -3058,7 +3056,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingLt-Regular"
+				"name"		"Code New Roman Italic"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -3067,7 +3065,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingLt-Regular"
+				"name"		"Code New Roman Italic"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -3076,7 +3074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingLt-Regular"
+				"name"		"Code New Roman Italic"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3085,7 +3083,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingLt-Regular"
+				"name"		"Code New Roman Italic"
 				"tall"		"30"
 				"antialias" "1"
 			}
@@ -3094,7 +3092,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingRg-Regular"
+				"name"		"Code New Roman"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -3103,7 +3101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingRg-Regular"
+				"name"		"Code New Roman"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -3112,7 +3110,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingRg-Regular"
+				"name"		"Code New Roman"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3121,83 +3119,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BuiltTitlingRg-Regular"
+				"name"		"Code New Roman"
 				"tall"		"30"
 				"antialias" "1"
 			}
 		}
-		diddic4_12
-		{
-			"1"
-			{
-				"name"		"BuiltTitlingSb-Regular"
-				"tall"		"12"
-				"antialias" "1"
-			}
-		}
-		diddic4_15
-		{
-			"1"
-			{
-				"name"		"BuiltTitlingSb-Regular"
-				"tall"		"15"
-				"antialias" "1"
-			}
-		}
-		diddic4_20
-		{
-			"1"
-			{
-				"name"		"BuiltTitlingSb-Regular"
-				"tall"		"20"
-				"antialias" "1"
-			}
-		}
-		diddic4_30
-		{
-			"1"
-			{
-				"name"		"BuiltTitlingSb-Regular"
-				"tall"		"30"
-				"antialias" "1"
-			}
-		}
-		diddic5_12
-		{
-			"1"
-			{
-				"name"		"BuiltTitlingRg-Bold"
-				"tall"		"12"
-				"antialias" "1"
-			}
-		}
-		diddic5_15
-		{
-			"1"
-			{
-				"name"		"BuiltTitlingRg-Bold"
-				"tall"		"15"
-				"antialias" "1"
-			}
-		}
-		diddic5_20
-		{
-			"1"
-			{
-				"name"		"BuiltTitlingRg-Bold"
-				"tall"		"20"
-				"antialias" "1"
-			}
-		}
-		diddic5_30
-		{
-			"1"
-			{
-				"name"		"BuiltTitlingRg-Bold"
-				"tall"		"30"
-				"antialias" "1"
-			}
-		}
+	
+
 	}
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -6009,29 +5937,19 @@ Scheme
 			}
 		}
 		"8"
-		{
-		"font" "resource/font/built titling bd"
-		"name" "BuiltTitlingRg-Bold"
-		}
-		"9"
-		{
-		"font" "resource/font/built titling lt"
-		"name" "BuiltTitlingLt-Regular"
-		}
+			{
+			"font"	"resource/font/Code New Roman b"
+			"name" "Code New Roman Bold"
+			}
+		"9"	
+			{
+			"font"	"resource/font/Code New Roman i"
+			"name" "Code New Roman Italic"
+			}
 		"10"
-		{
-		"font" "resource/font/built titling rg"
-		"name" "BuiltTitlingRg-Regular"
-		}
-		"11"
-		{
-		"font" "resource/font/built titling sb"
-		"name" "BuiltTitlingSb-Regular"
-		}
-		"12"
-		{
-		"font" "resource/font/built titling el"
-		"name" "BuiltTitlingEl-Regular"
-		}	
+			{
+			"font"	"resource/font/Code New Roman"
+			"name" "Code New Roman"
+			}
 	}
 }

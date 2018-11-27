@@ -104,7 +104,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
+		"font"			"QuestFlavorText"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusBleedImage"
