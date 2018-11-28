@@ -3016,6 +3016,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		//custum
 		diddic1_12
 		{
 			"1"
@@ -3052,6 +3053,42 @@ Scheme
 				"antialias" "1"
 			}
 		}
+			diddic1_8
+		{
+			"1"
+			{
+				"name"		"Code New Roman Bold"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		diddic1_40
+		{
+			"1"
+			{
+				"name"		"Code New Roman Bold"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		diddic1_50
+		{
+			"1"
+			{
+				"name"		"Code New Roman Bold"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+		diddic1_60
+		{
+			"1"
+			{
+				"name"		"Code New Roman Bold"
+				"tall"		"60"
+				"antialias" "1"
+			}
+		}
 		diddic2_12
 		{
 			"1"
@@ -3085,6 +3122,41 @@ Scheme
 			{
 				"name"		"Code New Roman Italic"
 				"tall"		"30"
+				"antialias" "1"
+			}
+		}diddic2_8
+		{
+			"1"
+			{
+				"name"		"Code New Roman Italic"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		diddic2_40
+		{
+			"1"
+			{
+				"name"		"Code New Roman Italic"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		diddic2_50
+		{
+			"1"
+			{
+				"name"		"Code New Roman Italic"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+		diddic2_60
+		{
+			"1"
+			{
+				"name"		"Code New Roman Italic"
+				"tall"		"60"
 				"antialias" "1"
 			}
 		}
@@ -3124,8 +3196,42 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	
-
+		diddic3_8
+		{
+			"1"
+			{
+				"name"		"Code New Roman"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		diddic3_40
+		{
+			"1"
+			{
+				"name"		"Code New Roman"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		diddic3_50
+		{
+			"1"
+			{
+				"name"		"Code New Roman"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+		diddic3_60
+		{
+			"1"
+			{
+				"name"		"Code New Roman"
+				"tall"		"60"
+				"antialias" "1"
+			}
+		}
 	}
 	//
 	//////////////////// BORDERS //////////////////////////////

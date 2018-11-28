@@ -7,7 +7,7 @@
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"160"		[$WIN32]
 		"xpos_minmode"	"-1"		[$WIN32]
-		"ypos"			"250"	[$WIN32]
+		"ypos"			"260"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
