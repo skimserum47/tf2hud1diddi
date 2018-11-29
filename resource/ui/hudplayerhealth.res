@@ -5,9 +5,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"160"		[$WIN32]
+		"xpos"			"80"		[$WIN32]
 		"xpos_minmode"	"-1"		[$WIN32]
-		"ypos"			"260"	[$WIN32]
+		"ypos"			"300"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
@@ -44,8 +44,8 @@
 		"zpos"			"3"
 		"wide"			"55"
 		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
