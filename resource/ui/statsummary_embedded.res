@@ -157,7 +157,7 @@
 				"enabled"			"1"
 			}				
 		}
-		"InteractiveHeaders"	
+		"InteractiveHeaders"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"InteractiveHeaders"
@@ -188,25 +188,6 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
-				
-				"fgcolor_override"			"White"
-				"bgcolor_override"			"Black"
-				"disabledFgColor_override" 	"White"
-				"disabledBgColor_override" 	"Black"
-				"selectionColor_override" 	"Black"
-				"selectionTextColor_override" "White"
-				"defaultSelectionBG2Color_override" "Black"
-		
-				"Button"
-				{
-					"defaultFgColor_override"	"White"
-					"defaultBgColor_override"	"Black"
-					"selectedFgColor_override"	"Black"
-					"selectedBgColor_override"	"White"
-					"armedFgColor_override"		"Black"
-					"armedBgColor_override"		"White"
-					"paintbackgroundtype"		"0"
-				}
 			}
 			"BarChartComboB"
 			{
@@ -226,26 +207,7 @@
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"	"0"
-				"unicode"		"0"
-				
-				"fgcolor_override"			"White"
-				"bgcolor_override"			"Black"
-				"disabledFgColor_override" 	"White"
-				"disabledBgColor_override" 	"Black"
-				"selectionColor_override" 	"Black"
-				"selectionTextColor_override" "White"
-				"defaultSelectionBG2Color_override" "Black"
-		
-				"Button"
-				{
-					"defaultFgColor_override"	"White"
-					"defaultBgColor_override"	"Black"
-					"selectedFgColor_override"	"Black"
-					"selectedBgColor_override"	"White"
-					"armedFgColor_override"		"Black"
-					"armedBgColor_override"		"White"
-					"paintbackgroundtype"		"0"
-				}
+				"unicode"			"0"
 			}
 			"ClassCombo"
 			{
@@ -265,26 +227,7 @@
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"	"0"
-				"unicode"		"0"
-				
-				"fgcolor_override"	"White"
-				"bgcolor_override"	"Black"
-				"disabledFgColor_override" "White"
-				"disabledBgColor_override" "Black"
-				"selectionColor_override" "Black"
-				"selectionTextColor_override" "White"
-				"defaultSelectionBG2Color_override" "Black"
-		
-				"Button"
-				{
-					"defaultFgColor_override"	"White"
-					"defaultBgColor_override"	"Black"
-					"selectedFgColor_override"	"Black"
-					"selectedBgColor_override"	"White"
-					"armedFgColor_override"	"Black"
-					"armedBgColor_override"	"White"
-					"paintbackgroundtype"	"0"
-				}
+				"unicode"			"0"
 			}
 		}
 		"AveragesBG"
@@ -365,12 +308,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar1"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1B"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ClassBar1B"
 			"xpos"			"c-127"
 			"ypos"			"232"
@@ -382,15 +325,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar1"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel1A"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1A"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -408,7 +350,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1B"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -420,7 +361,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel1"
 		{
 			"ControlName"	"Label"
@@ -437,7 +378,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG2A"
 		{
 			"ControlName"	"ImagePanel"
@@ -486,7 +427,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar2"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar2B"
@@ -503,7 +444,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar2"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel2A"
@@ -511,7 +452,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2A"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -529,7 +469,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2B"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -607,7 +546,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar3"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar3B"
@@ -624,7 +563,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar3"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel3A"
@@ -632,7 +571,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3A"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -650,7 +588,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3B"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -662,7 +599,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel3"
 		{
 			"ControlName"	"Label"
@@ -728,7 +665,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar4"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar4B"
@@ -745,7 +682,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar4"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel4A"
@@ -753,7 +690,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4A"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -771,7 +707,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4B"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -849,7 +784,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar5"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar5B"
@@ -866,7 +801,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar5"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel5A"
@@ -874,7 +809,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5A"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -892,7 +826,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5B"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -970,7 +903,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar6"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar6B"
@@ -987,7 +920,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar6"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel6A"
@@ -995,7 +928,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6A"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1013,7 +945,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6B"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1091,7 +1022,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar7"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar7B"
@@ -1108,7 +1039,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar7"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel7A"
@@ -1116,7 +1047,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7A"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1134,7 +1064,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7B"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1212,7 +1141,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar8"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar8B"
@@ -1229,7 +1158,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar8"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel8A"
@@ -1237,7 +1166,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8A"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1255,7 +1183,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8B"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1333,7 +1260,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar9"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar9B"
@@ -1350,7 +1277,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"White"
+			"fillcolor"		"StatBar9"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel9A"
@@ -1358,7 +1285,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9A"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1376,7 +1302,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9B"
 			"font"			"CodeLC8"
-			"fgcolor_override"	"Red"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"

@@ -10,7 +10,7 @@
 		"wide"			"500"
 		"tall"			"50"
 		"autoResize"	"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"HudBlack"	

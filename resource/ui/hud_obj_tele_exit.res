@@ -38,7 +38,6 @@
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_exit"
 		"iconColor"		"228 228 242 255"
-		"alpha"			"125"
 	}
 	
 	"NotBuiltPanel"

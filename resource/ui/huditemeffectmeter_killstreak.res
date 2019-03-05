@@ -49,7 +49,6 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"LightGravity10"
-		"fgcolor"			"White"
 	}
 
 	"ItemEffectMeter"
@@ -60,7 +59,7 @@
 		"xpos"				"25"
 		"ypos"				"23"
 		"zpos"				"2"
-		"wide"				"40"
+		"wide"				"400"
 		"tall"				"6"				
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -98,7 +97,7 @@
 		"fieldName"			"ItemEffectMeterCountShadow"
 		"xpos"				"-1"
 		"ypos"				"-1"
-		"zpos"				"2"
+		"zpos"				"1"
 		"wide"				"30"
 		"tall"				"20"
 		"pinCorner"			"2"

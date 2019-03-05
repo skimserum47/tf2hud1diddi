@@ -13,7 +13,6 @@
 		"enabled"			"1"
 		"scaleImage"		"1"	
 		"icon"				"hud_menu_bg"
-		"iconColor"			"White"
 	}
 
 	"TitleLabel"
@@ -80,7 +79,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 
 	"CancelLabel"
@@ -101,7 +99,6 @@
 		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"White"
 	}
 
 	"ShadedBar"

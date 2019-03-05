@@ -2,8 +2,6 @@ Scheme
 {
 	Colors
 	{
-		// CUSTOM COLORS
-		//---------------------------------------------
 		// HUD COLORS
 		//---------------------------------------------
 		"Blue"						"72 112 125 255"
@@ -42,7 +40,7 @@ Scheme
 		// Ubercharge
 		"Ubercharge1"				"0 170 127 255"
 		"Ubercharge2"				"0 120 127 255"
-		"ChargePercent"				"0 225 0 255"
+		"ChargePercent"				"243 243 243 255"
 		"Ubercharge Meter"			"0 170 127 255"
 		//---------------------------------------------
 		// Loadout Gradient
@@ -55,6 +53,17 @@ Scheme
 		"LOGMedic"					"130 75 75 255"
 		"LOGSniper"					"140 70 70 255"
 		"LOGSpy"					"158 65 65 255"
+		//---------------------------------------------
+		// Player Stats
+		"StatBar1"					"188 14 14 128"
+		"StatBar2"					"167 14 14 128"
+		"StatBar3"					"144 14 14 128"
+		"StatBar4"					"122 14 14 128"
+		"StatBar5"					"100 14 14 128"
+		"StatBar6"					"77 14 14 128"
+		"StatBar7"					"62 14 14 128"
+		"StatBar8"					"47 14 14 128"
+		"StatBar9"					"32 14 14 128"
 		//---------------------------------------------
 		// DEFAULT COLORS
 		//---------------------------------------------
@@ -90,7 +99,7 @@ Scheme
 		"Yellow"								"251 235 202 255"
 		"TransparentYellow"						"251 235 202 140"
 		"BrightYellow"							"251 235 0 255"
-		"GreenSolid"		 					"76 107 34 255"
+		"GreenSolid"							"76 107 34 255"
 		
 		"Black"									"46 43 42 255"
 		"Transparent"							"0 0 0 0"
@@ -109,7 +118,7 @@ Scheme
 		//"HudBlack"							"65 65 65 255"
 		"ProgressBarBlue"						"91 122 142 255"
 		"CreditsGreen"							"94 150 49 255"
-
+		
 		"Gray"									"178 178 178 255"
 		"Blank"									"0 0 0 0"
 		"ForTesting"							"255 0 0 32"
@@ -135,7 +144,7 @@ Scheme
 		"TanDark"								"242 242 242 125"
 		"TanLight"								"255 255 255 255"
 		"TanDarker"								"46 43 42 255"
-
+		
 		"StoreDarkTan"							"131 121 104 255"
 		"StoreGreen"							"76 107 34 255"
 		

@@ -25,6 +25,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"CodeBold27"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-Bold"
+				"tall"			"27"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"CodeBold22Outline"
 		{
 			"1"
@@ -2683,6 +2694,18 @@ Scheme
 			}
 		}
 		
+		"TF2ComboBox"
+		{
+			"1"
+			{
+				"name"			"TF2 Secondary"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
 		"QuestMap_Small_Blur"
 		{
 			"1"
@@ -2739,6 +2762,12 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+	}
+	
+	BitmapFontFiles
+	{
+		// UI buttons, custom font, (256x64)
+		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
 	
 	CustomFontFiles

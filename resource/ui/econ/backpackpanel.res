@@ -25,12 +25,12 @@
 		"item_mod_wide"			"40"
 		
 		"item_backpack_offcenter_x"	"-288"
-		"item_backpack_xdelta"	"4"
-		"item_backpack_ydelta"	"3"
+		"item_backpack_xdelta"		"4"
+		"item_backpack_ydelta"		"3"
 		
-		"button_xpos_offcenter"	"175"
-		"button_ypos"			"85"
-		"button_ydelta"			"80"
+		"button_xpos_offcenter"		"175"
+		"button_ypos"				"85"
+		"button_ydelta"				"80"
 		"button_override_delete_xpos" "0"
 		
 		"page_button_y"			"288"
@@ -81,15 +81,15 @@
 				"tall"				"f-3"
 				"textinsetx"		"8"
 				"autoResize"		"1"
-				"pinCorner"			"0"	
+				"pinCorner"			"0"
 				"visible"			"0"
 				"enabled"			"1"
 				"labelText"			"#Store_Price_New"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"border"			"StoreNewBorder"
-				"fgcolor"			"10 10 10 255"
+				"border"				"StoreNewBorder"
+				"fgcolor"				"10 10 10 255"
 			}
 		}
 		
@@ -131,13 +131,14 @@
 				"font"			"FontStorePrice"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
+				"ypos"			"0"
 				"zpos"			"15"
 				"wide"			"25"
 				"tall"			"12"
 				"textinsetx"	"8"
 				"autoResize"	"0"
 				"skip_autoresize"	"1"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
@@ -168,7 +169,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"fgcolor_override" 	"LightRed"
+		"fgcolor_override"	"LightRed"
 	}
 	
 	"ClassLabel"
@@ -252,7 +253,22 @@
 	{
 		"ControlName"		"CheckButton"
 		"fieldName"			"ShowBaseItemsCheckbox"
-		"xpos"				"9999"
+		"labelText"			"#ShowBaseItemsCheckBox"
+		"Font"				"CodeLC10"
+		"textAlignment"		"east"
+		"xpos"				"c-137"
+		"ypos"				"34"
+		"zpos"				"1"
+		"wide"				"120"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"Black"
 	}
 	
 	"NameFilterLabel"
@@ -262,7 +278,7 @@
 		"font"				"CodeLC10"
 		"labelText"			"Search:"
 		"textAlignment"		"west"
-		"xpos"				"c-177"
+		"xpos"				"c-287"
 		"ypos"				"35"
 		"zpos"				"1"
 		"wide"				"40"
@@ -279,9 +295,9 @@
 		"ControlName"		"TextEntry"
 		"fieldName"			"NameFilterTextEntry"
 		"font"				"CodeLC10"
-		"xpos"				"c-137"
+		"xpos"				"c-252"
 		"ypos"				"37"
-		"wide"				"90"
+		"wide"				"110"
 		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -389,7 +405,6 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
 		"model_ypos"	"5"
 		"model_tall"	"35"
 		"text_ypos"		"60"
@@ -523,7 +538,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelApplyToolButton"
 		"xpos"			"c-288"
-		"ypos"			"307"
+		"ypos"			"327"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"20"
@@ -541,23 +556,6 @@
 		"Command"		"canceltool"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	
-	"Wall"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Wall"
-		"xpos"			"0"
-		"ypos"			"30"
-		"zpos"			"-5"
-		"wide"			"f0"
-		"tall"			"320"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"MenuShader"
 	}
 	
 	"ShowExplanationsButton"
@@ -758,7 +756,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
 		"force_close"	"1"
 		"end_x"			"c-250"
 		"end_y"			"130"
@@ -1584,4 +1581,20 @@
 			"fgcolor_override" "LightRed"
 		}
 	}
-}
+	
+	"Wall"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Wall"
+		"xpos"			"0"
+		"ypos"			"30"
+		"zpos"			"-5"
+		"wide"			"f0"
+		"tall"			"320"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"MenuShader"
+	}

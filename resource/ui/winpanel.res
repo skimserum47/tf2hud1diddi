@@ -1,3 +1,4 @@
+
 "Resource/UI/winpanel.res"
 {
 	"TeamScoresPanel"
@@ -144,13 +145,12 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-
+		
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScore"
 			"font"				"CodeBold37"
-			"fgcolor"			"White"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"				"53"
@@ -185,7 +185,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-
+		
 		"BlueLeaderAvatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -262,7 +262,6 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScore"
 			"font"				"CodeBold37"
-			"fgcolor"			"White"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"105"
@@ -280,7 +279,6 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreDropshadow"
 			"font"				"CodeBold37"
-			"fgcolor"			"ShadowBlack"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"-2"
@@ -292,12 +290,13 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			"fgcolor"			"ShadowBlack"
 			
 			"pin_to_sibling"		"RedTeamScore"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-
+		
 		"RedLeaderAvatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -328,7 +327,7 @@
 			"bgcolor_override"	"DarkRed"
 		}
 	}
-
+	
 	"WinPanelBGBorder"
 	{
 		"ControlName"	"EditablePanel"
@@ -353,8 +352,6 @@
 		"zpos"			"-3"
 		"wide"			"200"
 		"tall"			"123"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"HUDBlack"
@@ -364,7 +361,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"LightGravity10"
-		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"43"
 		"zpos"			"1"
@@ -427,7 +423,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"LightGravity9"
-		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"53"
 		"zpos"			"1"
@@ -448,7 +443,7 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
 	}
-
+	
 	"TopPlayersLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -469,8 +464,8 @@
 		"fieldName"		"HorizontalLine"
 		"xpos"			"9999"
 	}
-
-	"Player1Avatar"		[$WIN32]
+	
+	"Player1Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"Player1Avatar"
@@ -539,7 +534,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
+	
 	"Player2Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -609,8 +604,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
-	"Player3Avatar"		[$WIN32]
+	
+	"Player3Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"
@@ -679,7 +674,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
+	
 	"KillStreakLeaderLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -712,7 +707,7 @@
 		"fieldName"		"HorizontalLine2"
 		"xpos"			"9999"
 	}
-
+	
 	"KillStreakPlayer1Avatar"	[$WIN32]
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -726,10 +721,10 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
-		"color_outline"		"52 48 45 255"
+		"color_outline"	"52 48 45 255"
 	}
 	"KillStreakPlayer1Name"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakPlayer1Name"
 		"xpos"			"29"
@@ -747,7 +742,7 @@
 		"brighttext"	"0"
 	}
 	"KillStreakPlayer1Class"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakPlayer1Class"
 		"xpos"			"120"
@@ -765,7 +760,7 @@
 		"brighttext"	"0"
 	}
 	"KillStreakPlayer1Score"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakPlayer1Score"
 		"xpos"			"168"

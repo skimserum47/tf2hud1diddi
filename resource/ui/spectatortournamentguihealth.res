@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"          "cs-0.5"
-		"ypos"          "cs-0.5"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"0"
@@ -13,13 +13,14 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 	}
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"visible"	"0"
 		"xpos"		"r0"
 		"ypos"		"r0"
 	}
-
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -36,21 +37,7 @@
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
-
-	BottomBorder
-	{
-		"ControlName" "EditablePanel"
-		"FieldName"		"BottomBorder"
-		"xpos"			"0"
-		"ypos"			"r0"
-		"zpos"			"6"
-		"wide"			"f0"
-		"tall"			"0"
-		"visible"		"1"
-		"bgcolor_override"	"Black"
-		"proportionaltoparent"	"1"
-	}
-
+	
 	"RedPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
@@ -62,7 +49,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"CodeBold14"
+		"font"			"CodeBold12"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"4"
@@ -82,7 +69,7 @@
 		"zpos"			"6"
 		"wide"			"28"
 		"tall"			"f0"
-		"font"			"CodeBold14"
+		"font"			"CodeBold12"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"2"
@@ -94,7 +81,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"BluePlayerHealth"
 	{
 		"ControlName"	"CExLabel"
@@ -106,7 +93,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"CodeBold14"
+		"font"			"CodeBold12"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"4"
@@ -126,7 +113,7 @@
 		"zpos"			"6"
 		"wide"			"28"
 		"tall"			"f0"
-		"font"			"CodeBold14"
+		"font"			"CodeBold12"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"2"
@@ -137,5 +124,19 @@
 		"pin_to_sibling"		"BluePlayerHealth"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+	
+	"BottomBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"FieldName"		"BottomBorder"
+		"xpos"			"0"
+		"ypos"			"r0"
+		"zpos"			"6"
+		"wide"			"f0"
+		"tall"			"0"
+		"visible"		"1"
+		"bgcolor_override"	"Black"
+		"proportionaltoparent"	"1"
 	}
 }
