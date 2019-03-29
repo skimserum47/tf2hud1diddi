@@ -60,8 +60,8 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c93"
-		"ypos"				"c63"
+		"xpos"				"c140	"
+		"ypos"				"c85"
 		"wide"				"150"
 		"tall"				"125"
 	}
@@ -101,7 +101,7 @@
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-		"MeterFG"			"TanLight"
+		"MeterFG"			"Blue"
 		"MeterBG"			"Gray"
 	}
 
@@ -1302,9 +1302,9 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
+		"xpos"			"c-440"
 		"ypos"			"c155"
-		"wide"			"470"
+		"wide"			"300"
 		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}

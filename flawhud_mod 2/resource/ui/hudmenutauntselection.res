@@ -35,7 +35,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"CodeBold22"
-		"xpos"			"0"
+		"xpos"			"-80"
 		"ypos"			"1"
 		"zpos"			"3"
 		"wide"			"470"
