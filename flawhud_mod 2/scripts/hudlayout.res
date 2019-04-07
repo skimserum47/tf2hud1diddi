@@ -111,7 +111,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"0"
-		"ypos"				"c50"
+		"ypos"				"c80"
 		"wide"				"f0"
 		"tall"				"300"
 	}
@@ -211,7 +211,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-50"
-		"ypos"					"c15"
+		"ypos"					"c45"
 		"wide"					"100"
 		"tall"  				"100"
 		"visible" 				"1"
@@ -222,8 +222,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-181"
-		"ypos"					"227"
+		"xpos"					"180"
+		"ypos"					"280"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -234,8 +234,8 @@
 	CDamageAccountPanel
 	{
 		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"-10"
+		"ypos"					"-10"
 		"wide"					"f0"
 		"tall"					"480"
 		"visible" 				"1"
@@ -260,7 +260,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-126"
-		"ypos"					"240"
+		"ypos"					"260"
 		"wide"	 				"200"
 		"tall"	 				"50"
 		"priority"				"40"
@@ -284,7 +284,7 @@
 		"visible" 			"0"
 		"enabled" 			"1"
 		"xpos"				"c-126"
-		"ypos"				"265"
+		"ypos"				"290"
 		"wide"	 			"200"
 		"tall"	 			"50"
 		"priority"			"35"
@@ -1302,7 +1302,7 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-440"
+		"xpos"			"c130"
 		"ypos"			"c155"
 		"wide"			"300"
 		"tall"			"88"
