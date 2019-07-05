@@ -7,7 +7,6 @@
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"G_Heal"
-		"NegativeColor"			"255 255 0 255"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"CodeBold20Outline"
 		"delta_item_font_big"	"CodeBold22Outline"
@@ -17,8 +16,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"DamageAccountValue"
-		"xpos"				"c-123"
-		"ypos"				"312"
+		"xpos"				"c-165"
+		"ypos"				"335"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"26"
