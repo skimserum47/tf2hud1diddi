@@ -95,6 +95,19 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulseLoop 		0.0
 }
 //==================================================================================
+event HudSnapShotReminderIn
+{
+    RunEvent HudHealthDyingPulseStop	0.0
+    RunEvent HudHealthBonusPulseStop	0.0
+    RunEvent HudLowAmmoPulseStop		0.0
+    RunEvent HudMedicChargedStop		0.0
+
+    StopEvent HudHealthDyingPulseStop	0.5
+    StopEvent HudHealthBonusPulseStop	0.5
+    StopEvent HudLowAmmoPulseStop		0.5
+    StopEvent HudMedicChargedStop		0.5
+}
+//==================================================================================
 
 event HudMedicCharged
 {

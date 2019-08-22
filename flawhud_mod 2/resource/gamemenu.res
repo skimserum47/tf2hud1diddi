@@ -11,35 +11,34 @@
 		"label" 		"Mann Co. Store"
 		"command" 		"engine open_store"
 	}
+	"SteamWorkshopButton"
+	{
+		"label" 		"Steam Workshop"
+		"command" 		"engine OpenSteamWorkshopDialog"
+	}
 	"SettingsButton"
 	{
-		"label" 		"Options"
-		"command" 		"OpenOptionsDialog"
+		"label"			"Options"
+		"command"		"OpenOptionsDialog"
 	}
 	"TF2SettingsButton"
 	{
-		"label" 		"Adv. Options"
-		"command" 		"opentf2options"
-	}
-	"FavoriteServer"
-	{
-		"label"			""
-		"command" 		"engine itemtest"
-		"tooltip" 		"Favorite Server"
+		"label"			"Adv. Options"
+		"command"		"opentf2options"
 	}
 
 	// BOTTOM ROW BUTTONS
 	"AchievementsButton"
 	{
-		"label" 		""
-		"command" 		"OpenAchievementsDialog"
+		"label"			""
+		"command"		"OpenAchievementsDialog"
 		"subimage" 		"glyph_achievements"
 		"tooltip" 		"Achievements"
 	}
 	"ReplayButton"
 	{
-		"label" 		""
-		"command" 		"engine replay_reloadbrowser"
+		"label"			""
+		"command"		"engine replay_reloadbrowser"
 		"subimage" 		"glyph_tv"
 		"tooltip" 		"Replay"
 	}
@@ -57,12 +56,27 @@
 		"subimage"		"glyph_bug"
 		"tooltip"		"Report a Bug"
 	}
-	"SteamWorkshopButton"
+	"ItemTestButton"
 	{
 		"label" 		""
-		"command" 		"engine OpenSteamWorkshopDialog"
-		"subimage" 		"glyph_steamworkshop"
-		"tooltip" 		"Steam Workshop"
+		"command" 		"engine itemtest"
+		"subimage" 		"glyph_items"
+		"tooltip" 		"Item Testing"
+	}
+	"CoachPlayersButton"
+	{
+		"label" 		""
+		"command" 		"engine cl_coach_toggle"
+		"subimage" 		"glyph_commentary"
+		"tooltip" 		"Coach a Player"
+	}
+	"RequestCoachButton"
+	{
+		"label" 		""
+		"command" 		"engine cl_coach_find_coach"
+		"OnlyInGame"	"1"
+		"subimage" 		"glyph_tutorial"
+		"tooltip" 		"Request a Coach"
 	}
 	"CallVoteButton"
 	{
@@ -85,7 +99,7 @@
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_commentary"
+		"subimage"		"glyph_quest_icon"
 		"tooltip"		"Report Player"
 	}
 }
