@@ -159,7 +159,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Back"
+		"labelText"		"Back (&Q)"
 		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -182,4 +182,4 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-}
+	}

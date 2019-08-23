@@ -14,6 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"bgcolor_override"	"HudBlack"
+		"border"			"NoBorder"
 	}
 
 	"Container"
@@ -31,7 +32,7 @@
 		"tabPosition"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"WhiteBorder"
+		"border"				"noborder"
 
 		"Background"
 		{
